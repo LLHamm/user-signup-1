@@ -9,8 +9,8 @@ template_dir = os.path.join(os.path.dirname(__file__), 'templates')
 jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir), autoescape=True)
 
 # user details
-# I know that, in the context of this assignment, we could keep this within the scope of the index method, but in a real-world
-# scenario, that might not be desirable. 
+# I know that, in the context of this assignment, we could keep this within the scope 
+# of the index method, but in a real-world scenario, that might not be desirable. 
 user_name = ''
 password = ''
 email = ''
